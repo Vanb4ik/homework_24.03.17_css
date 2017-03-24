@@ -1,0 +1,17 @@
+/*
+	!important
+	style=""
+ 000 000
+	* 									= 0
+	selector by TAG 		= 1
+	.class, *[attr]			= 10
+	#id									= 100
+
+	p + !important 			= 1001
+	.class + !important = 1010
+	#id + !important 		= 1100
+*/
+
+p p#parent > span[class] * {
+	color: red !important;
+}

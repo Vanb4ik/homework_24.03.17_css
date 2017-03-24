@@ -1,0 +1,50 @@
+blockquote { /* Selector by TAG */
+	color: #47a;
+}
+
+.example {
+	font-size: .5em;
+}
+
+p[data-attr] {
+	color: #f00;
+}
+
+p[data-some="value"] {
+	color: #ff0;
+}
+
+p[data-contains*="and"] {
+	color: #1df;
+}
+p[data-starts^=starts] {
+	color: #fd1;
+}
+
+p[data-ends$="val"] {
+	color: #df1;
+}
+
+#identifier {
+	color: #369;
+}
+
+blockquote > q {
+	text-decoration: underline;
+}
+
+blockquote q {
+
+}
+
+#identifier + span {
+	text-decoration: line-through;
+}
+
+#identifier ~ span {
+	color: #0f0;
+}
+
+body span {
+	font-size: .7em;
+}

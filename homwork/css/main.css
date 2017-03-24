@@ -1,0 +1,106 @@
+.body
+{
+	background: url(../images/seigaiha.png);
+
+}
+.content
+{
+	background: url(../images/BA_new_icon.png)no-repeat;
+	background-attachment: fixed;
+	background-position: right top 30px ;
+	/*height: 12500px;*/
+	font-family: Arial, Verdana, Tahoma, sans-serif;
+}
+h1,h2
+{
+font-size: 40px;
+text-align: center;
+font-weight: bold;
+color: #333;
+}
+h2
+{
+font-size: 20px;
+color: #ccc;
+font-style: oblique
+}
+.content1
+{
+	font-size: 16px;
+	color: #888;
+	font-weight: bold;
+
+}
+a
+{
+	text-decoration: none;
+}
+.linc 
+{
+	list-style: none;
+	text-align: center;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+.linc li a
+{
+	padding: 0px 500px;
+	color: #000;
+}
+.linc a:hover
+{
+
+	background: url(../images/short_arrow_right-512.png) no-repeat;
+	background-position: left;
+	background-color: #eee;
+}
+.linc a:visited
+{
+	color: #a9a;
+}
+.content_x
+{
+	font-size: 18px;
+	font-weight: bold;
+	text-align: justify;
+}
+.content_x p:first-line
+{
+	font-size:150%;
+	color: #a83;
+}
+.content_x p:first-letter
+{
+	color: #ea3;
+	font-size: 150%;
+	text-align: justify;
+}
+.content_x h2
+{
+	font-size: 35px;
+	text-align: left;
+}
+.content_x h2 p
+{
+	color: #222;
+}
+.table
+{
+	font-size: 18px;
+	text-align: center;
+}
+.tr1
+{
+	background-color: #666;
+	color: #fff;
+}
+.table tr:hover
+{
+ background-color: #ccc;
+}
+.tr4
+{
+	background-color: #a83;
+	color: #fff;
+}
